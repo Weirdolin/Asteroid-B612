@@ -6,6 +6,7 @@ int *GetNext(char *match)
 {
 	int *pNext = NULL;
 	int i = 0;
+	int o = 0;
 	pNext = (int*)malloc(sizeof(int)*256);
 	memset(pNext,-1,sizeof(int)*256);
 
